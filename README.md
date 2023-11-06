@@ -8,7 +8,7 @@ ps：美团感觉最少应该开个sp的，所有面试中表现最好的就是�
 
 个人GitHub：https://github.com/Wuxinyue1999 （没啥东西，平时间不怎么用，把项目和一些资料上传到这了，hhh）
 
-<img src="https://github.com/Wuxinyue1999/JavaWxy/blob/master/asset/%E9%82%AE%E4%BB%B6.png" alt="邮件"/>
+<img src="asset/邮件.png" alt="邮件"/>
 
 对应我项目的面经基本上都发在了牛客上：https://www.nowcoder.com/users/715322843
 
@@ -148,9 +148,9 @@ Git&Maven&Docker&MongoDB 这些中间件大致了解一下如何使用就差不�
 
 简历可以参考如下写法：
 
-<img src="https://github.com/Wuxinyue1999/JavaWxy/blob/master/asset/%E7%AE%80%E5%8E%861.png">
+<img src="asset/简历1.png">
 
-<img src="https://github.com/Wuxinyue1999/JavaWxy/blob/master/asset/%E7%AE%80%E5%8E%862.png">
+<img src="asset/简历2.png">
 
 ### 八股文
 
