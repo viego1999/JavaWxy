@@ -14,7 +14,7 @@ ps：美团感觉最少应该开个sp的，所有面试中表现最好的就是�
 
 ### 学习内容
 
-学习内容主要有：Java基础、MySQL、Spring、Mybatis、SpringBoot、SpringCloud、Redis、RabbitMQ、JUC、JVM、Netty、Zookeeper、Dubbo、GIt、Maven、计算机网络、操作系统、设计模式、Elasticsearch、Docker、MongoDB；
+学习内容主要有：**Java基础**、**MySQL**、**Spring**、Mybatis、**SpringBoot**、SpringCloud、**Redis**、**RabbitMQ**、**JUC**、**JVM**、Netty、Zookeeper、Dubbo、GIt、Maven、计算机网络、操作系统、设计模式、Elasticsearch、Docker、MongoDB；
 
 ----
 
@@ -105,6 +105,12 @@ Es一般也少问，简历上有可能会被问到，重点其实也就是倒排
 1、[Elasticsearch教程入门到精通](https://www.bilibili.com/video/BV1Gh411j7d6/?spm_id_from=333.337.search-card.all.click&vd_source=8f6745987f6d9c4a333570852e433d6c)
 
 其实上面的SpringCloud教学视频里面包括了es的学习，所以学了cloud之后可以不用额外花时间学了。
+
+#### JVM
+
+jvm面试也是高频内容，看的顺序可以偏后一点，这里推荐的是尚硅谷的视频：
+
+1、[JVM全套教程](https://www.bilibili.com/video/BV1PJ411n7xZ/?spm_id_from=333.337.search-card.all.click&vd_source=8f6745987f6d9c4a333570852e433d6c)
 
 #### Git
 
