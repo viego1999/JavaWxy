@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" width="420" height="390" font-family="DejaVu Sans,sans-serif"
+    font-stretch="condensed" text-anchor="middle" stroke-width="2">
+    <style type="text/css">
+        .text1 {
+            font-size: 22px;
+        }
+
+        .text3 {
+            font-size: 18px;
+        }
+
+        .path1 {
+            fill: black;
+            stroke: black;
+            stroke-width: 2px;
+        }
+
+        .rectGrey {
+            fill: lightgrey;
+            stroke: black;
+        }
+
+        .rectWhite {
+            fill: #EEEEEE;
+            stroke: black;
+        }
+    </style>
+    <g transform="translate(10,10)">
+        <rect width="350" height="60" x="0" y="0" class="rectGrey" id="rectMemory" />
+        <rect width="160" height="160" x="0" y="110" class="rectGrey" id="rectCU" />
+        <rect width="160" height="160" x="190" y="110" class="rectGrey" id="rectALU" />
+        <rect width="120" height="40" x="210" y="210" class="rectWhite" id="rectAccu" />
+        <rect width="120" height="40" x="140" y="330" class="rectGrey" id="rectInput" />
+        <rect width="120" height="40" x="280" y="330" class="rectGrey" id="rectOutput" />
+
+        <g transform="translate(40,85)">
+            <g id="arrowsCU">
+                <path transform="translate(0,20)" d="M 0,0 v -40 m 0,0 l -3,6 l 6,0 l -3,-6 z" class="path1"
+                    id="arrowC2M" />
+                <use transform="matrix(1,0,0,-1,80,0)" id="use2853" xlink:href="#arrowC2M" />
+            </g>
+            <use transform="translate(190,0)" xlink:href="#arrowsCU" />
+        </g>
+
+        <g transform="translate(175,230)">
+            <path transform="translate(10,0)" d="M 0,0 h -20 m 0,0 l 6,-3 l 0,6 l -6,-3 z" class="path1"
+                id="arrowALUCU" />
+            <use transform="matrix(-1,0,0,1,0,-80)" xlink:href="#arrowALUCU" />
+        </g>
+        <g transform="translate(200,325) rotate(45)">
+            <path d="M 0,0 v -95 m 0,0 l -3,6 l 6,0 l -3,-6 z" class="path1" id="arrowInAcc" />
+            <use transform="rotate(90) translate(-100,-5)" xlink:href="#arrowInAcc" />
+        </g>
+        <switch>
+            <g systemLanguage="de">
+                <text x="175" y="40" class="text1">Speicher</text>
+                <text y="190" class="text1">
+                    <tspan x="80" dy="0">Steuerwerk</tspan>
+                    <tspan x="80" dy="1.1em"></tspan>
+                </text>
+                <text y="145" class="text1">
+                    <tspan x="270" dy="0"></tspan>
+                    <tspan x="270" dy="1.1em">Rechenwerk</tspan>
+                    <tspan x="270" dy="1.1em"></tspan>
+                </text>
+                <text x="270" y="238" class="text3">Akkumulator</text>
+                <text x="200" y="360" class="text1">Eingabe</text>
+                <text x="340" y="360" class="text1">Ausgabe</text>
+            </g>               
+            <g systemLanguage="vi">
+                <text x="175" y="40" class="text1">Bộ nhớ</text>
+                <text y="190" class="text1">
+                    <tspan x="80" dy="0">Đơn vị</tspan>
+                    <tspan x="80" dy="1.1em">Điều khiển</tspan>
+                </text>
+                <text y="145" class="text1">
+                    <tspan x="270" dy="0">Đơn vị</tspan>
+                    <tspan x="270" dy="1.1em">Luận lý</tspan>
+                    <tspan x="270" dy="1.1em">Số học</tspan>
+                </text>
+                <text x="270" y="238" class="text3">Thanh chứa</text>
+                <text x="200" y="360" class="text1">Ngõ nhập</text>
+                <text x="340" y="360" class="text1">Ngõ xuất</text>
+            </g>            
+            <g systemLanguage="uk">
+                <text x="175" y="40" class="text1">Пам'ять</text>
+                <text y="190" class="text1">
+                    <tspan x="80" dy="0">Керуючий</tspan>
+                    <tspan x="80" dy="1.1em">пристрій</tspan>
+                </text>
+                <text y="145" class="text1">
+                    <tspan x="270" dy="0">Арифметико-</tspan>
+                    <tspan x="270" dy="1.1em">логічний</tspan>
+                    <tspan x="270" dy="1.1em">пристрій</tspan>
+                </text>
+                <text x="270" y="238" class="text3">Акумулятор</text>
+                <text x="200" y="360" class="text1">Введення</text>
+                <text x="340" y="360" class="text1">Виведення</text>
+            </g>            
+            <g systemLanguage="it">
+                <text x="175" y="40" class="text1">Memoria</text>
+                <text y="190" class="text1">
+                    <tspan x="80" dy="0">Unità</tspan>
+                    <tspan x="80" dy="1.1em">di controllo</tspan>
+                </text>
+                <text y="145" class="text1">
+                    <tspan x="270" dy="0">Unità</tspan>
+                    <tspan x="270" dy="1.1em">aritmetica</tspan>
+                    <tspan x="270" dy="1.1em">e logica</tspan>
+                </text>
+                <text x="270" y="238" class="text3">Accumulatore</text>
+                <text x="200" y="360" class="text1">Input</text>
+                <text x="340" y="360" class="text1">Output</text>
+            </g>            
+            <g systemLanguage="hu">
+                <text x="175" y="40" class="text1">Memória</text>
+                <text y="190" class="text1">
+                    <tspan x="80" dy="0">Vezérlő</tspan>
+                    <tspan x="80" dy="1.1em">egység</tspan>
+                </text>
+                <text y="145" class="text1">
+                    <tspan x="270" dy="0">Aritmetikai-</tspan>
+                    <tspan x="270" dy="1.1em">logikai</tspan>
+                    <tspan x="270" dy="1.1em">egység</tspan>
+                </text>
+                <text x="270" y="238" class="text3">Akkumulátor</text>
+                <text x="200" y="360" class="text1">Bemenet</text>
+                <text x="340" y="360" class="text1">Kimenet</text>
+            </g>            
+            <g systemLanguage="fr">
+                <text x="175" y="40" class="text1">Mémoire</text>
+                <text y="190" class="text1">
+                    <tspan x="80" dy="0">Unité</tspan>
+                    <tspan x="80" dy="1.1em">de contrôle</tspan>
+                </text>
+                <text y="145" class="text1">
+                    <tspan x="270" dy="0">Unité</tspan>
+                    <tspan x="270" dy="1.1em">arithmétique</tspan>
+                    <tspan x="270" dy="1.1em">et logique</tspan>
+                </text>
+                <text x="270" y="238" class="text3">Accumulateur</text>
+                <text x="200" y="360" class="text1">Entrée</text>
+                <text x="340" y="360" class="text1">Sortie</text>
+            </g>            
+            <g systemLanguage="pt">
+                <text x="175" y="40" class="text1">Memória</text>
+                <text y="190" class="text1">
+                    <tspan x="80" dy="0">Unidade</tspan>
+                    <tspan x="80" dy="1.1em">de controle</tspan>
+                </text>
+                <text y="145" class="text1">
+                    <tspan x="270" dy="0">Unidade</tspan>
+                    <tspan x="270" dy="1.1em">Aritmética</tspan>
+                    <tspan x="270" dy="1.1em">e Lógica</tspan>
+                </text>
+                <text x="270" y="238" class="text3">Acumulador</text>
+                <text x="200" y="360" class="text1">Entrada</text>
+                <text x="340" y="360" class="text1">Saída</text>
+            </g>
+            <g systemLanguage="la">
+                <text x="175" y="40" class="text1">Memoria</text>
+                <text y="190" class="text1">
+                    <tspan x="80" dy="0">Moderatorium</tspan>
+                    <tspan x="80" dy="1.1em"></tspan>
+                </text>
+                <text y="145" class="text1">
+                    <tspan x="270" dy="0">Monas</tspan>
+                    <tspan x="270" dy="1.1em">Logica</tspan>
+                    <tspan x="270" dy="1.1em">Arithmetica</tspan>
+                </text>
+                <text x="270" y="238" class="text3">Accumulator</text>
+                <text x="200" y="360" class="text1">Inducta</text>
+                <text x="340" y="360" class="text1">Educta</text>
+            </g>
+            <g systemLanguage="pl">
+                <text x="175" y="40" class="text1">Pamięć</text>
+                <text y="190" class="text1">
+                    <tspan x="80" dy="0">Jednostka</tspan>
+                    <tspan x="80" dy="1.1em">sterująca</tspan>
+                </text>
+                <text y="145" class="text1">
+                    <tspan x="270" dy="0">Jednostka</tspan>
+                    <tspan x="270" dy="1.1em">arytmetyczno-</tspan>
+                    <tspan x="270" dy="1.1em">logiczna</tspan>
+                </text>
+                <text x="270" y="238" class="text3">Akumulator</text>
+                <text x="200" y="360" class="text1">Wejście</text>
+                <text x="340" y="360" class="text1">Wyjście</text>
+            </g>
+            <g systemLanguage="bs">
+                <text x="175" y="40" class="text1">Memorija</text>
+                <text y="190" class="text1">
+                    <tspan x="80" dy="0">Kontrolna</tspan>
+                    <tspan x="80" dy="1.1em">jedinica</tspan>
+                </text>
+                <text y="145" class="text1">
+                    <tspan x="270" dy="0">Artimetičko</tspan>
+                    <tspan x="270" dy="1.1em">logička</tspan>
+                    <tspan x="270" dy="1.1em">jedinica</tspan>
+                </text>
+                <text x="270" y="238" class="text3">Kolektor</text>
+                <text x="200" y="360" class="text1">Ulaz</text>
+                <text x="340" y="360" class="text1">Izlaz</text>
+            </g>
+            <g systemLanguage="en">
+                <text x="175" y="40" class="text1">Memory</text>
+                <text y="190" class="text1">
+                    <tspan x="80" dy="0">Control</tspan>
+                    <tspan x="80" dy="1.1em">Unit</tspan>
+                </text>
+                <text y="145" class="text1">
+                    <tspan x="270" dy="0">Arithmetic</tspan>
+                    <tspan x="270" dy="1.1em">Logic</tspan>
+                    <tspan x="270" dy="1.1em">Unit</tspan>
+                </text>
+                <text x="270" y="238" class="text3">Accumulator</text>
+                <text x="200" y="360" class="text1">Input</text>
+                <text x="340" y="360" class="text1">Output</text>
+            </g>
+            <g>
+                <text x="175" y="40" class="text1">Memory</text>
+                <text y="190" class="text1">
+                    <tspan x="80" dy="0">Control</tspan>
+                    <tspan x="80" dy="1.1em">Unit</tspan>
+                </text>
+                <text y="145" class="text1">
+                    <tspan x="270" dy="0">Arithmetic</tspan>
+                    <tspan x="270" dy="1.1em">Logic</tspan>
+                    <tspan x="270" dy="1.1em">Unit</tspan>
+                </text>
+                <text x="270" y="238" class="text3">Accumulator</text>
+                <text x="200" y="360" class="text1">Input</text>
+                <text x="340" y="360" class="text1">Output</text>
+            </g>
+        </switch>
+    </g>
+</svg>
