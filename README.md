@@ -6,7 +6,7 @@
 
 ps：美团感觉最少应该开个sp的，所有面试中表现最好的就是美团，结果给我开个大白菜，有可能是觉得我不会去？？？
 
-个人GitHub：https://github.com/Wuxinyue1999 （没啥东西，平时间不怎么用，把项目和一些资料上传到这了，hhh）
+个人GitHub：https://github.com/viego1999 （没啥东西，平时间不怎么用，把项目和一些资料上传到这了，hhh）
 
 <img src="asset/邮件.png" alt="邮件"/>
 
@@ -138,11 +138,11 @@ Git&Maven&Docker&MongoDB 这些中间件大致了解一下如何使用就差不�
 
 项目这里推荐一个轮子项目+一个业务项目，这样的话找工作的时候匹配的业务方向面更广；
 
-1、手写RPC项目，可以参考：https://github.com/Wuxinyue1999/wxy-rpc ；
+1、手写RPC项目，可以参考：https://github.com/viego1999/wxy-rpc ；
 
-2、在线教育平台项目，可以参考：https://github.com/Wuxinyue1999/xuecheng-plus-project ，教学视频[学成在线](https://www.bilibili.com/video/BV1j8411N7Bm/?spm_id_from=333.337.search-card.all.click&vd_source=8f6745987f6d9c4a333570852e433d6c)；
+2、在线教育平台项目，可以参考：https://github.com/viego1999/xuecheng-plus-project ，教学视频[学成在线](https://www.bilibili.com/video/BV1j8411N7Bm/?spm_id_from=333.337.search-card.all.click&vd_source=8f6745987f6d9c4a333570852e433d6c)；
 
-3、黑马点评，可以参考：https://github.com/Wuxinyue1999/xy-dianping ；
+3、黑马点评，可以参考：https://github.com/viego1999/xy-dianping ；
 
 实际上可以把黑马点评中的技术要求高的模块结合到学成在线里面，我是把 秒杀业务 放到了学成在线中，学成在线还有很多配套资料很全面；
 
@@ -164,7 +164,7 @@ Git&Maven&Docker&MongoDB 这些中间件大致了解一下如何使用就差不�
 
 4、[拓跋阿秀](https://interviewguide.cn/)：这里主要看的是 **智力题** 和 **场景题** 以及 **海量数据处理**；
 
-5、一些额外的八股文pdf, md文档等，可以访问：https://github.com/Wuxinyue1999/JavaWxy ，这里是对上述内容的一些补充，记录了一些比较重要和比较偏的面试题，*markdown文件下载下来可以访问图片*；
+5、一些额外的八股文pdf, md文档等，可以访问：https://github.com/viego1999/JavaWxy ，这里是对上述内容的一些补充，记录了一些比较重要和比较偏的面试题，*markdown文件下载下来可以访问图片*；
 
 八股文背熟之后，还是靠自己理解，把这些知识都能串联起来，形成自己的一套知识体系，达到问一个点就能把这个点相关的内容全部都说出来，基本上面试这一块就没什么问题了。
 
@@ -176,7 +176,7 @@ Git&Maven&Docker&MongoDB 这些中间件大致了解一下如何使用就差不�
 
 算法主要还是得多刷，特别是力扣上的 **剑指offer** 和 **hot100** 题，大部分面试的算法都可能是上面的原题，所以，这两个背都得背下来，其他的就靠自己多刷题多积累了，一些常见的：dp、滑动窗口、双指针、前缀和、回溯等等。
 
-我的算法总结：https://github.com/Wuxinyue1999/Leetcode-Pro ，主要的刷题总结在excel表中。
+我的算法总结：https://github.com/viego1999/Leetcode-Pro ，主要的刷题总结在excel表中。
 
 ----
 
